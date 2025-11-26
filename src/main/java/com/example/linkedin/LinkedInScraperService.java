@@ -28,8 +28,8 @@ public class LinkedInScraperService {
 			driver.get("https://www.linkedin.com/login");
 			Thread.sleep(3000);
 
-			driver.findElement(By.id("username")).sendKeys("hiramaadhav@gmail.com");
-			driver.findElement(By.id("password")).sendKeys("Maadhav@1608");
+			driver.findElement(By.id("username")).sendKeys("Your_Email");
+			driver.findElement(By.id("password")).sendKeys("Your_Password");
 
 			driver.findElement(By.xpath("//button[@type='submit']")).click();
 			Thread.sleep(5000); // wait for homepage
